@@ -1,0 +1,282 @@
+[33mcommit 84dd1419234cd0099ab0c7e1dd287c2f194a0dd0[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: eyarmogray <eyarmogray@xogrp.com>
+Date:   Tue Jun 13 11:06:28 2017 -0400
+
+    Links image to attribution page
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex b9ba93d..6c0f4b8 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -7,7 +7,9 @@[m
+ 	<h1>hello, world</h1>[m
+ 	<a href="about.html">About this project</a>[m
+ 	<p>Call me Ishmael.</p>[m
+[31m-	<img src="images/breaching_whale.jpg"/>[m
+[32m+[m	[32m<a href="https://www.flickr.com/photos/28883788@N04/10097824543">[m
+[32m+[m[32m      <img src="images/breaching_whale.jpg">[m
+[32m+[m[32m    </a>[m
+ </body>[m
+ </html>[m
+ [m
+
+[33mcommit b8247ded258e535b6211498f52e9705ca26dc78d[m
+Author: ellamary <ellamary@gmail.com>
+Date:   Tue Jun 13 11:01:42 2017 -0400
+
+    Add link to tutorial title
+
+[1mdiff --git a/about.html b/about.html[m
+[1mindex fefc4e6..4da15e2 100644[m
+[1m--- a/about.html[m
+[1m+++ b/about.html[m
+[36m@@ -7,7 +7,7 @@[m
+     <h1>About</h1>[m
+     <p>[m
+       This site is a sample project for the <strong>awesome</strong> Git[m
+[31m-      tutorial <em>Learn Enough™ Git to Be Dangerous</em>.[m
+[32m+[m[32m      tutorial <a href="http://learnenough.com/git-tutorial"><em>Learn Enough™ Git to Be Dangerous</em></a>.[m
+     </p>[m
+   </body>[m
+ </html>[m
+\ No newline at end of file[m
+
+[33mcommit 0e47d99a5ae00370f2ccdbb6f09915e1ead3f875[m
+Author: ellamary <ellamary@gmail.com>
+Date:   Tue Jun 13 10:35:28 2017 -0400
+
+    Add a like to the About page
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 92a47e7..b9ba93d 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -5,6 +5,7 @@[m
+ </head>[m
+ <body>[m
+ 	<h1>hello, world</h1>[m
+[32m+[m	[32m<a href="about.html">About this project</a>[m
+ 	<p>Call me Ishmael.</p>[m
+ 	<img src="images/breaching_whale.jpg"/>[m
+ </body>[m
+
+[33mcommit 0e21d2e0e05d4b48b30761039b40c688574e99a0[m
+Author: ellamary <ellamary@gmail.com>
+Date:   Tue Jun 13 10:32:02 2017 -0400
+
+    Add About page
+
+[1mdiff --git a/about.html b/about.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..fefc4e6[m
+[1m--- /dev/null[m
+[1m+++ b/about.html[m
+[36m@@ -0,0 +1,13 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html>[m
+[32m+[m[32m  <head>[m
+[32m+[m[32m    <title>About Us</title>[m
+[32m+[m[32m  </head>[m
+[32m+[m[32m  <body>[m
+[32m+[m[32m    <h1>About</h1>[m
+[32m+[m[32m    <p>[m
+[32m+[m[32m      This site is a sample project for the <strong>awesome</strong> Git[m
+[32m+[m[32m      tutorial <em>Learn Enough™ Git to Be Dangerous</em>.[m
+[32m+[m[32m    </p>[m
+[32m+[m[32m  </body>[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
+
+[33mcommit 49c51ae093e25786e6bc56ac8005c56ff4524d18[m
+Author: ellamary <ellamary@gmail.com>
+Date:   Tue Jun 13 10:26:31 2017 -0400
+
+    Adds .gitignore file
+
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mnew file mode 100644[m
+[1mindex 0000000..496ee2c[m
+[1m--- /dev/null[m
+[1m+++ b/.gitignore[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m.DS_Store[m
+\ No newline at end of file[m
+
+[33mcommit c2c7d113922457d110cd8768f7f7f31996f7b065[m
+Author: ellamary <ellamary@gmail.com>
+Date:   Tue Jun 13 10:18:31 2017 -0400
+
+    Add an image
+
+[1mdiff --git a/images/breaching_whale.jpg b/images/breaching_whale.jpg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..a821434[m
+Binary files /dev/null and b/images/breaching_whale.jpg differ
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 95b362a..92a47e7 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -6,6 +6,7 @@[m
+ <body>[m
+ 	<h1>hello, world</h1>[m
+ 	<p>Call me Ishmael.</p>[m
+[32m+[m	[32m<img src="images/breaching_whale.jpg"/>[m
+ </body>[m
+ </html>[m
+ [m
+
+[33mcommit a74d527809f2bc9fadabfe4fd549da71367303e5[m
+Author: ellamary <ellamary@gmail.com>
+Date:   Tue Jun 13 10:13:31 2017 -0400
+
+    Update README
+
+[1mdiff --git a/README.md b/README.md[m
+[1mindex 6f5902c..adbebd4 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -11,3 +11,6 @@[m [mAfter finishing *Learn Enough™ Git to Be Dangerous*, you'll know enough Git[m
+ to be *dangerous*. This means you'll be able to use Git to track changes in[m
+ your projects, back up data, share your work with others, and collaborate[m
+ with programmers and other users of Git.[m
+[32m+[m
+[32m+[m[32mFor more information on Git, see the[m
+[32m+[m[32m[official Git documentation](https://git-scm.com/).[m
+\ No newline at end of file[m
+
+[33mcommit a1ba0a257332c7ed76afeac2b4e53fcdf22dc21b[m
+Author: ellamary <ellamary@gmail.com>
+Date:   Tue Jun 13 10:09:06 2017 -0400
+
+    Add README file
+
+[1mdiff --git a/README.md b/README.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..6f5902c[m
+[1m--- /dev/null[m
+[1m+++ b/README.md[m
+[36m@@ -0,0 +1,13 @@[m
+[32m+[m[32m# Sample Website[m
+[32m+[m
+[32m+[m[32mThis is a sample website made as part of [*Learn Enough™ Git to Be[m
+[32m+[m[32mDangerous*](http://learnenough.com/git-tutorial), possibly the greatest[m
+[32m+[m[32mbeginner Git tutorial in the history of the Universe. You should totally [[m
+[32m+[m[32mcheck it out](http://learnenough.com/git-tutorial), and be sure to [join[m
+[32m+[m[32mthe email list](http://learnenough.com/#email_list) and [follow @learnenough[m
+[32m+[m[32m](http://twitter.com/learnenough) on Twitter.[m
+[32m+[m
+[32m+[m[32mAfter finishing *Learn Enough™ Git to Be Dangerous*, you'll know enough Git[m
+[32m+[m[32mto be *dangerous*. This means you'll be able to use Git to track changes in[m
+[32m+[m[32myour projects, back up data, share your work with others, and collaborate[m
+[32m+[m[32mwith programmers and other users of Git.[m
+
+[33mcommit edf62292ad37b63283593ac08f841f42c76332f4[m
+Author: ellamary <ellamary@gmail.com>
+Date:   Tue Jun 13 09:41:00 2017 -0400
+
+    Adds title
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex efd7d55..95b362a 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -1,7 +1,7 @@[m
+ <!--DOCTYPE html-->[m
+ <html>[m
+ <head>[m
+[31m-	<title></title>[m
+[32m+[m	[32m<title>A whale of a greeting</title>[m
+ </head>[m
+ <body>[m
+ 	<h1>hello, world</h1>[m
+
+[33mcommit 632a8809ac9d519f23adf03d9561701a0680b3ba[m
+Author: ellamary <ellamary@gmail.com>
+Date:   Tue Jun 13 09:39:53 2017 -0400
+
+    Add some HTML structure
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 45d754a..efd7d55 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -1 +1,11 @@[m
+[31m-<h1>hello, world</h1>[m
+[32m+[m[32m<!--DOCTYPE html-->[m
+[32m+[m[32m<html>[m
+[32m+[m[32m<head>[m
+[32m+[m	[32m<title></title>[m
+[32m+[m[32m</head>[m
+[32m+[m[32m<body>[m
+[32m+[m	[32m<h1>hello, world</h1>[m
+[32m+[m	[32m<p>Call me Ishmael.</p>[m
+[32m+[m[32m</body>[m
+[32m+[m[32m</html>[m
+[41m+[m
+
+[33mcommit ed7db5c7defb9c6b3a581104a1a1a33d6ebb44f9[m
+Author: ellamary <ellamary@gmail.com>
+Date:   Mon Jun 12 17:02:20 2017 -0400
+
+    Add an h1 tag
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 4b5fa63..45d754a 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -1 +1 @@[m
+[31m-hello, world[m
+[32m+[m[32m<h1>hello, world</h1>[m
+
+[33mcommit 5bbbe874ce361c255121dc59fde4ffc96bef1821[m
+Author: ellamary <ellamary@gmail.com>
+Date:   Mon Jun 12 16:56:08 2017 -0400
+
+    Add baz
+
+[1mdiff --git a/baz b/baz[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
+
+[33mcommit 49c890d066bb592a0b95c57e5da08b18b27661a0[m
+Author: ellamary <ellamary@gmail.com>
+Date:   Mon Jun 12 16:53:09 2017 -0400
+
+    Add content to index.html
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex e69de29..4b5fa63 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mhello, world[m
+
+[33mcommit ebae20084cd9931495265070b97c03a2f4792472[m
+Author: ellamary <ellamary@gmail.com>
+Date:   Mon Jun 12 16:51:04 2017 -0400
+
+            Adding bar
+
+[1mdiff --git a/bar b/bar[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
+
+[33mcommit 78d81182b7550323ec9f6a930bd03ff9a5521c50[m
+Author: ellamary <ellamary@gmail.com>
+Date:   Mon Jun 12 16:50:32 2017 -0400
+
+    Adding foo
+
+[1mdiff --git a/foo b/foo[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
+
+[33mcommit b18cc102a254ef1723fc35123af967bbf1f83e4a[m
+Author: Ella YarmoGray <eyarmogray@ny-jreggioltr.intranet.theknot.com>
+Date:   Mon Jun 12 16:47:20 2017 -0400
+
+    Initialize repository
+
+[1mdiff --git a/index.html b/index.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
